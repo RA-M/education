@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+<!--  	  	<Resource name="test" auth="Container" type="javax.sql.DataSource" -->
+<!-- 		username="STAR_DB" password="password" driverClassName="oracle.jdbc.driver.OracleDriver" -->
+<!--  		url="jdbc:oracle:thin:@192.168.0.252:1521:orcl" maxActive="8" -->
+<!-- 		maxIdle="8" />  -->
+	  	
+<!-- 	 	<Resource name="test1" auth="Container" type="javax.sql.DataSource"  -->
+<!-- 		username="STAR_DB" password="password" driverClassName="oracle.jdbc.driver.OracleDriver" -->
+<!--  		url="jdbc:oracle:thin:@192.168.0.252:1521:orcl" maxActive="8"  -->
+<!-- 		maxIdle="8" />  -->
+		
+		<!-- <Resource name="test" auth="Container" type="javax.sql.DataSource"
+		username="STAR_DEV_ENV" password="password" driverClassName="oracle.jdbc.driver.OracleDriver"
+ 		url="jdbc:oracle:thin:@192.168.0.252:1521:orcl" maxActive="8"
+		maxIdle="8" /> 
+	  	
+	 	<Resource name="test1" auth="Container" type="javax.sql.DataSource" 
+		username="STAR_DEV_ENV" password="password" driverClassName="oracle.jdbc.driver.OracleDriver"
+ 		url="jdbc:oracle:thin:@192.168.0.252:1521:orcl" maxActive="8" 
+		maxIdle="8" />  -->
+		<Resource name="test" auth="Container" type="javax.sql.DataSource"
+		username="NEW_MUMBAI_POLICE_wellness" password="password" driverClassName="oracle.jdbc.driver.OracleDriver"
+ 		url="jdbc:oracle:thin:@192.168.0.230:1521:orcl" maxActive="8"
+		maxIdle="8" /> 
+	  	
+	 	<Resource name="test1" auth="Container" type="javax.sql.DataSource" 
+		username="NEW_MUMBAI_POLICE_wellness" password="password" driverClassName="oracle.jdbc.driver.OracleDriver"
+ 		url="jdbc:oracle:thin:@192.168.0.230:1521:orcl" maxActive="8" 
+		maxIdle="8" />
+		
+		<!-- <Resource name="test" auth="Container" type="javax.sql.DataSource"
+		username="STAR_DB_QC" password="password" driverClassName="oracle.jdbc.driver.OracleDriver"
+ 		url="jdbc:oracle:thin:@192.168.0.245:1521:orcl" maxActive="8"
+		maxIdle="8" /> 
+	  	
+	 	<Resource name="test1" auth="Container" type="javax.sql.DataSource" 
+		username="STAR_DB_QC" password="password" driverClassName="oracle.jdbc.driver.OracleDriver"
+ 		url="jdbc:oracle:thin:@192.168.0.245:1521:orcl" maxActive="8" 
+		maxIdle="8" />  -->
+		
+	 	<!-- <Resource name="test" auth="Container" type="javax.sql.DataSource"
+		username="STAR_PROD25" password="password" driverClassName="oracle.jdbc.driver.OracleDriver"
+		url="jdbc:oracle:thin:@192.168.0.252:1521:orcl" maxActive="8"
+		maxIdle="8" />   
+	  	
+	 	<Resource name="test1" auth="Container" type="javax.sql.DataSource"
+		username="STAR_PROD25" password="password" driverClassName="oracle.jdbc.driver.OracleDriver"
+		url="jdbc:oracle:thin:@192.168.0.252:1521:orcl" maxActive="8"
+		maxIdle="8" />  -->
+		
+		<!-- <Resource name="test" auth="Container" type="javax.sql.DataSource"
+		username="remittance_2" password="password" driverClassName="oracle.jdbc.driver.OracleDriver"
+		url="jdbc:oracle:thin:@localhost:1521:orcl" maxActive="10"
+		maxIdle="4" />   
+	  	
+	 	<Resource name="test1" auth="Container" type="javax.sql.DataSource"
+		username="ACCUITY_DATA" password="password" driverClassName="oracle.jdbc.driver.OracleDriver"
+		url="jdbc:oracle:thin:@localhost:1521:orcl" maxActive="10"
+		maxIdle="4" /> -->
+		
+		<!-- <Resource name="test" auth="Container" type="javax.sql.DataSource"
+		username="fantailp" password="password" driverClassName="oracle.jdbc.driver.OracleDriver"
+		url="jdbc:oracle:thin:@192.168.0.160:1521:orcl" maxActive="8"
+		maxIdle="8" />  -->
+</Context>
