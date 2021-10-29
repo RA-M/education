@@ -89,6 +89,7 @@ public class PatientDetailAction extends ActionSupport implements SessionAware
     	log.info("Inside save of PatientDetailAction "+patientDetail.getAge()+" "+patientDetail.getName());
     	message = patientDetailDao.Save(patientDetail);
     	//message.put("success", "Record Saved Successfully");
+    	log.info("End of save action");
     	return "success";
 	}
     
