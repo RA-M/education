@@ -20,13 +20,13 @@
  		url="jdbc:oracle:thin:@192.168.0.252:1521:orcl" maxActive="8" 
 		maxIdle="8" />  -->
 		<Resource name="test" auth="Container" type="javax.sql.DataSource"
-		username="NEW_MUMBAI_POLICE_wellness" password="password" driverClassName="oracle.jdbc.driver.OracleDriver"
- 		url="jdbc:oracle:thin:@192.168.0.230:1521:orcl" maxActive="8"
+		username="root" password="Ram@9970" driverClassName="com.mysql.jdbc.Driver"
+ 		url="jdbc:mysql://localhost:3306/dev_db" maxActive="8"
 		maxIdle="8" /> 
 	  	
 	 	<Resource name="test1" auth="Container" type="javax.sql.DataSource" 
-		username="NEW_MUMBAI_POLICE_wellness" password="password" driverClassName="oracle.jdbc.driver.OracleDriver"
- 		url="jdbc:oracle:thin:@192.168.0.230:1521:orcl" maxActive="8" 
+		username="root" password="password" driverClassName="com.mysql.jdbc.Driver"
+ 		url="jdbc:mysql://localhost:3306/dev_db" maxActive="8" 
 		maxIdle="8" />
 		
 		<!-- <Resource name="test" auth="Container" type="javax.sql.DataSource"

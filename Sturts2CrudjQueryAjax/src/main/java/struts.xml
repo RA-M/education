@@ -6,6 +6,7 @@
 	<package name="default" extends="struts-default,json-default">
 		<action name="login" class="com.edutech.login.action.LoginAction" method="data">
 			<result name="success">pages/searchEmployee.jsp</result>
+			<result name="error">pages/error.jsp</result>
 		</action>
 		
 		<action name="registerEmployee" class="com.edutech.login.action.LoginAction" method="registerEmployee">

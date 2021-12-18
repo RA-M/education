@@ -65,6 +65,20 @@ public class DAOBase implements DAO {
 		}*/
 		return queryString;
 	}
+	
+	protected void finalize() throws Throwable {
+
+		try {
+			if (connection != null) {
+				connection.close();
+				connection = null;
+			}
+		} catch (Exception ex) {
+			log.info(ex);
+		} finally {
+			super.finalize();
+		}
+	}
 
 	
 }
