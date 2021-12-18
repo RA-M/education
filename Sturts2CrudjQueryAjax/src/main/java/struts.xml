@@ -4,24 +4,24 @@
 "http://struts.apache.org/dtds/struts-2.0.dtd">
 <struts>
 	<package name="default" extends="struts-default,json-default">
-		<action name="login" class="com.credentek.login.action.LoginAction" method="data">
+		<action name="login" class="com.edutech.login.action.LoginAction" method="data">
 			<result name="success">pages/searchEmployee.jsp</result>
 		</action>
 		
-		<action name="registerEmployee" class="com.credentek.login.action.LoginAction" method="registerEmployee">
+		<action name="registerEmployee" class="com.edutech.login.action.LoginAction" method="registerEmployee">
 			<result name="success">pages/registerEmployee.jsp</result>
 			<!-- <result type = "json"></result> -->
 		</action>
-		<action name="register" class="com.credentek.login.action.LoginAction" method="register">
+		<action name="register" class="com.edutech.login.action.LoginAction" method="register">
 			 <result type = "json"></result> 
 		</action>
 		
 		<!--  execute() method is default method -->
-		<action name="save" class="com.credentek.patientDetail.action.PatientDetailAction" method="save">
+		<action name="save" class="com.edutech.patientDetail.action.PatientDetailAction" method="save">
 			<result type = "json"></result>
 		</action>
 		
-		<action name="txnPrintForm" method="txnPrintForm" class="com.credentek.patientDetail.action.PatientDetailAction">
+		<action name="txnPrintForm" method="txnPrintForm" class="com.edutech.patientDetail.action.PatientDetailAction">
 			<result name="success" type="stream">
                 <param name="contentType">application/pdf</param>
                 <param name="inputName">fileInputStream</param>
